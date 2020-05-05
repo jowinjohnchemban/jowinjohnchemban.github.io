@@ -6,6 +6,7 @@
 
 .arrowdown {
   padding-top: 20px;
+  padding-bottom: -50px;
   text-align: center;
   -webkit-animation: action 1s infinite  alternate;
   animation: action 1s infinite  alternate;
@@ -58,6 +59,7 @@
   overflow: hidden;
   z-index: 9999;
   top: 0;
+  height: 50px;
   width: 100%;
   background-color: #000000;
   border-bottom: 5px solid #00c7ff;
