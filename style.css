@@ -5,7 +5,19 @@
 /* HOME PAGE #START */
 
 .arrowdown {
+  padding-top: 20px;
   text-align: center;
+  -webkit-animation: action 1s infinite  alternate;
+  animation: action 1s infinite  alternate;
+}
+
+@-webkit-keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes action {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -204,7 +216,7 @@
 .accomplishmentsdisplay {
   height: auto;
   background-color: white;
-  align-items: center;
+  text-align: center;
 }
 
 .accomplishmentsdisplay h1 {
