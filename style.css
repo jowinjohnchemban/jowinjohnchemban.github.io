@@ -54,10 +54,13 @@
 /* HEADER #START */
 
 .navbar {
-
+  position: fixed;
+  overflow: hidden;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
   background-color: #000000;
   border-bottom: 5px solid #00c7ff;
-  padding-bottom: 10px;
 }
 
 
