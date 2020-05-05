@@ -33,6 +33,7 @@
   <meta property="og:image" content="./Jowin John Chemban.jpg" />
 
   <link rel="icon" href="./favicon_JJC.png" type="image/png" />
+  <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-rc.2/lazyload.js"></script>
   <link rel="stylesheet" href="./adobe_style.css" type="text/css" />
   <link rel="stylesheet" href="./style.css" type="text/css" />
   <meta name="theme-color" content="#000" />
@@ -43,7 +44,7 @@
 
 <body class="transition-enabled">
 
-
+  <nav class="navbar" id="navbar"></nav>
   <!-- HOME PAGE #START -->
   <section class="splash centered">
     <div class="outer-wrap">
@@ -203,18 +204,13 @@ padding-bottom: px;">
 
 
 
-  <nav class="navbar" id="navbar"></nav>
-
-
-
-
   <!-- PROJECT DISPLAY #START -->
   <section>
     <div class="projectdisplay" id="projects">
       <h1>PROJECTS</h1>
       <div class="projectwrapper">
         <div class="projects">
-          <img src="./res/admin.mystrix.in.webp">
+          <img class="lazyload" src="./res/admin.mystrix.in.webp">
           <div class="overlay">
             <div class="text" style="color: black;">Admin Panel for MYSTRIX 2020 Techfect website at Holy Grace Academy
               of
@@ -225,7 +221,7 @@ padding-bottom: px;">
           </div>
         </div>
         <div class="projects">
-          <img src="./res/mystrix.in.webp">
+          <img class="lazyload" src="./res/mystrix.in.webp">
           <div class="overlay">
             <div class="text" style="color: white;">Back-End of MYSTRIX 2020 Techfest website at Holy Grace Academy of
               Engineering, Mala</div>
@@ -248,14 +244,14 @@ padding-bottom: px;">
 
         <div class="accomplishments">
           <div style="text-align: center; ">
-          <script src="https://www.hackthebox.eu/badge/42599"></script>
+          <script class="lazyload" src="https://www.hackthebox.eu/badge/42599"></script>
           </div>
         </div>
 
         <div class="accomplishments">
           <div style="padding-top: 2vw;"> 
           <a href="https://www.youracclaim.com/badges/bafc349d-02eb-4e6f-a32b-218874e597fd/public_url">
-            <img src="./res/machine-learning-with-python.webp" alt="machine-learning-with-python" />
+            <img class="lazyload" src="./res/machine-learning-with-python.webp" alt="machine-learning-with-python" />
             </a>
           </div>
         </div>
