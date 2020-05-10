@@ -42,9 +42,10 @@
 
 </head>
 
+<!-- BODY #START -->
+
 <body class="transition-enabled">
 
-  <nav class="navbar" id="navbar"></nav>
   <!-- HOME PAGE #START -->
   <section class="splash centered">
     <div class="outer-wrap">
@@ -65,8 +66,7 @@
             </div>
 
             <div class="project-module module button project-module-button editable"
-              data-id="m5e79fc904027cf28efe424703517c10e0bb19eeda97ac2599d83d" style=" padding-top: px;
-padding-bottom: px;">
+              data-id="m5e79fc904027cf28efe424703517c10e0bb19eeda97ac2599d83d">
               <div class="button-container">
 
                 <a href="https://bit.ly/jjc_wa" target="_blank" rel="noreferrer"
@@ -75,7 +75,7 @@ padding-bottom: px;">
             </div>
 
             <div
-              class="js-project-module project-module module social_icons project-module-social_icons align- editable js-editable"
+              class="project-module module social_icons project-module-social_icons align- editable"
               data-id="m5e79fc90402866a1e142b9682f5c6ee12d22b731fa92590528920">
 
               <div class="social">
@@ -205,8 +205,9 @@ padding-bottom: px;">
 
 
   <!-- PROJECT DISPLAY #START -->
-  <section>
-    <div class="projectdisplay" id="projects">
+  <section id="projects">
+    <div class="projectdisplay" >
+        <nav class="bar" id="bar"></nav>
       <h1>PROJECTS</h1>
       <div class="projectwrapper">
         <div class="projects">
@@ -243,17 +244,18 @@ padding-bottom: px;">
       <div class="accomplishmentswrapper">
 
         <div class="accomplishments">
-          <div style="padding-top: 2vw;"> 
-          <a href="https://www.hackthebox.eu/profile/42599">
-            <img class="lazyload" src="https://www.hackthebox.eu/badge/image/42599" alt="Hack The Box" />
+          <div style="padding-top: 2vw;">
+            <a href="https://www.hackthebox.eu/profile/42599">
+              <img class="lazyload" src="https://www.hackthebox.eu/badge/image/42599" alt="Hack The Box" />
             </a>
           </div>
         </div>
 
         <div class="accomplishments">
-          <div style="padding-top: 2vw;"> 
-          <a href="https://www.youracclaim.com/badges/bafc349d-02eb-4e6f-a32b-218874e597fd/public_url">
-            <img class="lazyload" src="./res/machine-learning-with-python.webp" alt="Machine Learning with Python by IBM through Coursera" />
+          <div style="padding-top: 2vw;">
+            <a href="https://www.youracclaim.com/badges/bafc349d-02eb-4e6f-a32b-218874e597fd/public_url">
+              <img class="lazyload" src="./res/machine-learning-with-python.webp"
+                alt="Machine Learning with Python by IBM through Coursera" />
             </a>
           </div>
         </div>
@@ -284,5 +286,7 @@ padding-bottom: px;">
   </script>
 
 </body>
+
+<!-- BODY #END -->
 
 </html>
