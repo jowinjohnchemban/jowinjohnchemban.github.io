@@ -74,8 +74,7 @@
               </div>
             </div>
 
-            <div
-              class="project-module module social_icons project-module-social_icons align- editable"
+            <div class="project-module module social_icons project-module-social_icons align- editable"
               data-id="m5e79fc90402866a1e142b9682f5c6ee12d22b731fa92590528920">
 
               <div class="social">
@@ -206,8 +205,8 @@
 
   <!-- PROJECT DISPLAY #START -->
   <section id="projects">
-    <div class="projectdisplay" >
-        <nav class="bar" id="bar"></nav>
+    <div class="projectdisplay">
+      <nav class="bar" id="bar"></nav>
       <h1>PROJECTS</h1>
       <div class="projectwrapper">
         <div class="projects">
@@ -263,8 +262,7 @@
         <div class="accomplishments">
           <div style="padding-top: 2vw;">
             <a href="">
-              <img class="lazyload" src="./res/images/nse1.webp"
-                alt="NSE 1 Network Security Associate" />
+              <img class="lazyload" src="./res/images/nse1.webp" alt="NSE 1 Network Security Associate" />
             </a>
           </div>
         </div>
@@ -272,8 +270,7 @@
         <div class="accomplishments">
           <div style="padding-top: 2vw;">
             <a href="">
-              <img class="lazyload" src="./res/images/nse2.webp"
-                alt="NSE 2 Network Security Associate" />
+              <img class="lazyload" src="./res/images/nse2.webp" alt="NSE 2 Network Security Associate" />
             </a>
           </div>
         </div>
@@ -302,6 +299,47 @@
       if (e.persisted) { window.location.reload(); }
     };
   </script>
+
+  <!--jiosaavn[S]-->
+  <div id="jiosaavn-widget">
+    <div style="position:fixed;top:100%;">
+      Listen to the <a href="https://www.jiosaavn.com/featured/the-drop/NkWn3dHw0Krc1EngHtQQ2g__" target="_blank">latest
+        songs</a>
+      , only on <a href="https://www.jiosaavn.com" target="_blank">JioSaavn.com</a>
+    </div>
+  </div>
+  <script>
+    (function (d, t) {
+      var s = d.createElement(t);
+      var s1 = d.createElement(t);
+      if (d.getElementById('jsw-init'))
+        return;
+      s.setAttribute('id', 'jsw-init');
+      s.setAttribute('src', 'https://www.jiosaavn.com/embed/_s/embed.js?ver=' + Date.now());
+      s.onload = function () {
+        s1.appendChild(d.createTextNode('JioSaavnEmbedWidget.init({a:1,q:1,embed_src:"https://www.jiosaavn.com/embed/playlist/173255392", partner_id: "jowinjohnchemban"});'));
+        d.body.appendChild(s1);
+      }
+        ;
+      if (document.readyState === 'complete') {
+        d.body.appendChild(s);
+      } else if (document.readyState === 'loading') {
+        var interval = setInterval(function () {
+          if (document.readyState === 'complete') {
+            d.body.appendChild(s);
+            clearInterval(interval);
+          }
+        }, 100);
+      } else {
+        window.onload = function () {
+          d.body.appendChild(s);
+        }
+          ;
+      }
+    }
+    )(document, 'script');
+  </script>
+  <!--jiosaavn[E]-->
 
 </body>
 
